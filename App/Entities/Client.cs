@@ -8,13 +8,17 @@ namespace App.Entities
 {
     public class Client : IClient
     {
-        public Client(string? name, string? cpf)
+        public Client(string name, string cpf)
         {
             Name = name;
             CPF = cpf;
+            Accounts = new List<Account>();
         }
-        private string? Name { get; set; }
-        private string? CPF { get; set; }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
+        public string CPF { get; private set; }
+
+        public List<Account> Accounts { get; private set; }
 
         public void Deposit(double balance)
         {
