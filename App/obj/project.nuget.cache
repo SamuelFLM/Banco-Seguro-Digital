@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AUmNCV1XAbdNJt18i/5fWJRqRHI91qdkSbzsetbrqurTPr7Wd6tsue+8bH7PPL88CRSvtPVz02esUtAD1Sk6rQ==",
+  "dgSpecHash": "uLli8wuwmAVcAcHscJb6HFG5gav/Rx2FvVfJ1KzeUYuVTcI1WLQGpkb0dhwsSy8CoVQKNedTr5RImy8kHAxsxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Banco Seguro Digital\\App\\App.csproj",
+  "projectFilePath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Banco Seguro Digital\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
