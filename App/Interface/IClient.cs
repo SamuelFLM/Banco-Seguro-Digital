@@ -7,7 +7,7 @@ namespace App.Interface
 {
     public interface IClient
     {
-        void Sacar();
-        void Depositar();
+        void WithDraw(double balance);
+        void Deposit(double balance);
     }
 }

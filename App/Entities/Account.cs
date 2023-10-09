@@ -8,12 +8,15 @@ namespace App.Entities
 {
     public class Account : IAccount
     {
-        public void CriarConta()
+        public double Balance { get; set; }
+        public int Number { get; set; }
+
+        public void CreateAccount()
         {
             throw new NotImplementedException();
         }
 
-        public void FecharConta()
+        public void CloseAccount(int number)
         {
             throw new NotImplementedException();
         }

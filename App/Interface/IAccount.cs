@@ -7,7 +7,7 @@ namespace App.Interface
 {
     public interface IAccount
     {
-        void CriarConta();
-        void FecharConta();
+        void CreateAccount();
+        void CloseAccount(int number);
     }
 }

@@ -13,16 +13,15 @@ namespace App.Entities
             Name = name;
             CPF = cpf;
         }
-
         private string? Name { get; set; }
         private string? CPF { get; set; }
 
-        public void Depositar()
+        public void Deposit(double balance)
         {
             throw new NotImplementedException();
         }
 
-        public void Sacar()
+        public void WithDraw(double balance)
         {
             throw new NotImplementedException();
         }
