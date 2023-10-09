@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9i/K9FVW86UwP8pp99ZJQUXkeTE0049R6N4fMDouZmrerL1xPGiNm602fkSVVke7qnD78EeUQRGSL9o/4qhHBA==",
+  "dgSpecHash": "AUmNCV1XAbdNJt18i/5fWJRqRHI91qdkSbzsetbrqurTPr7Wd6tsue+8bH7PPL88CRSvtPVz02esUtAD1Sk6rQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Banco Seguro Digital\\App\\App.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
+    "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.11\\microsoft.entityframeworkcore.inmemory.7.0.11.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.11\\microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.11\\microsoft.entityframeworkcore.sqlserver.7.0.11.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",

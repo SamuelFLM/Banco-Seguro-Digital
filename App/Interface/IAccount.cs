@@ -8,6 +8,6 @@ namespace App.Interface
     public interface IAccount
     {
         void CreateAccount();
-        void CloseAccount(int number);
+        void CloseAccount();
     }
 }

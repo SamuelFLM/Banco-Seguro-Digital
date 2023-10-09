@@ -6,21 +6,25 @@ using App.Interface;
 
 namespace App.Entities
 {
-    public class Account : IAccount
+    public abstract class Account : IAccount
     {
+        public Account(double balance, int number, int idCliente)
+        {
+            Balance = balance;
+            Number = number;
+            IdClient = idCliente;
+        }
         public int Id { get; private set; }
         public double Balance { get; private set; }
         public int Number { get; private set; }
-        public int IdClient{ get; private set; }
-        
-        public void CreateAccount()
+        public int IdClient { get; private set; }
+
+        public void CloseAccount()
         {
-            throw new NotImplementedException();
         }
 
-        public void CloseAccount(int number)
+        public void CreateAccount()
         {
-            throw new NotImplementedException();
         }
     }
 }
