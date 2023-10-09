@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace App.Interface
 {
-    public interface IConta
+    public interface IClient
     {
-        
+        void Sacar();
+        void Depositar();
     }
 }

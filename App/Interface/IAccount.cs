@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace App.Interface
 {
-    public interface ICliente
+    public interface IAccount
     {
-        
+        void CriarConta();
+        void FecharConta();
     }
 }
