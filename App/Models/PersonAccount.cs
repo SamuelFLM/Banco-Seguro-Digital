@@ -8,6 +8,7 @@ namespace App.Models
 {
     public class PersonAccount : Account
     {
+        public PersonAccount(){}
         public PersonAccount(int id, double balance, int number, int idClient) : base(id, balance, number, idClient)
         {
             Persons = new List<Person>();

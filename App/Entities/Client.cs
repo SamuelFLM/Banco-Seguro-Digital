@@ -9,6 +9,7 @@ namespace App.Entities
 {
     public abstract class Client : IClient
     {
+        public Client() { }
         public Client(int id, string name, string cpf)
         {
             Id = id;

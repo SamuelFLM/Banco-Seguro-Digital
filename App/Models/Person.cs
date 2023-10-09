@@ -8,10 +8,14 @@ namespace App.Models
 {
     public class Person : Client
     {
+        public Person()
+        {
+
+        }
         public Person(int id, string name, string cpf) : base(id, name, cpf)
         {
         }
-       
+
         public override string CloseAccount()
         {
             return "Account close sucess!";
