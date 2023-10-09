@@ -17,7 +17,7 @@ namespace App.Entities
             IdClient = idClient;
         }
         public int Id { get; private set; }
-        public double Balance { get; protected set; }
+        public double Balance { get; set; }
         public int Number { get; private set; }
         public int IdClient { get; private set; }
 
