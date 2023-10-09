@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace App.Interface
+namespace App.Models
 {
-    public interface IClient
+    public class PersonAccount
     {
-        void CreateAccount();
-        void CloseAccount();
+        
     }
 }

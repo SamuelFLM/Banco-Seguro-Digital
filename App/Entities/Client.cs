@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using App.Interface;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
 
 namespace App.Entities
 {
-    public class Client : IClient
+    public abstract class Client : IClient
     {
         public Client(string name, string cpf)
         {
@@ -20,14 +21,9 @@ namespace App.Entities
 
         public List<Account> Accounts { get; private set; }
 
-        public void Deposit(double balance)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void CloseAccount();
 
-        public void WithDraw(double balance)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void CreateAccount();
+        
     }
 }

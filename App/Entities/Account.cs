@@ -19,12 +19,8 @@ namespace App.Entities
         public int Number { get; private set; }
         public int IdClient { get; private set; }
 
-        public void CloseAccount()
-        {
-        }
-
-        public void CreateAccount()
-        {
-        }
+        public abstract void Deposit(double balance);
+        public abstract void WithDraw(double balance);
+        
     }
 }

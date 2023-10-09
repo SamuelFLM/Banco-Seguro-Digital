@@ -7,7 +7,9 @@ namespace App.Interface
 {
     public interface IAccount
     {
-        void CreateAccount();
-        void CloseAccount();
+        public void Deposit(double balance);
+
+        public void WithDraw(double balance);
+        
     }
 }
