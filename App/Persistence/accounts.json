@@ -1,0 +1,30 @@
+{
+  "Accounts": [
+    {
+      "Persons": [
+        {
+          "Id": 1,
+          "Name": "samuel",
+          "CPF": "2334"
+        }
+      ],
+      "Id": 1,
+      "Balance": 3000.0,
+      "Number": 334,
+      "IdClient": 1
+    },
+    {
+      "Persons": [
+        {
+          "Id": 2,
+          "Name": "ana",
+          "CPF": "11234"
+        }
+      ],
+      "Id": 2,
+      "Balance": 4000.0,
+      "Number": 123,
+      "IdClient": 2
+    }
+  ]
+}

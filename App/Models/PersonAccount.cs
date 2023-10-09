@@ -10,9 +10,9 @@ namespace App.Models
     {
         public PersonAccount(int id, double balance, int number, int idClient) : base(id, balance, number, idClient)
         {
-
+            Persons = new List<Person>();
         }
-
+        public List<Person> Persons { get; private set; }
         public override void Deposit(double balance)
         {
             Balance += balance;

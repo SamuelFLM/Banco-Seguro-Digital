@@ -10,9 +10,8 @@ namespace App.Models
     {
         public Person(int id, string name, string cpf) : base(id, name, cpf)
         {
-            Accounts = new List<PersonAccount>();
         }
-        public List<PersonAccount> Accounts { get; private set; }
+       
         public override string CloseAccount()
         {
             return "Account close sucess!";
