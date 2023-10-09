@@ -15,10 +15,10 @@ namespace App.Entities
             Number = number;
             IdClient = idClient;
         }
-        private int Id { get;  set; }
-        protected double Balance { get;  set; }
-        private int Number { get;  set; }
-        private int IdClient { get;  set; }
+        public int Id { get;  private set; }
+        public double Balance { get;  set; }
+        public int Number { get;  private set; }
+        public int IdClient { get;  private set; }
 
         public abstract void Deposit(double balance);
         public abstract void WithDraw(double balance);

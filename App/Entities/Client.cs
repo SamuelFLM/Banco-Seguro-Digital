@@ -15,13 +15,13 @@ namespace App.Entities
             Name = name;
             CPF = cpf;
         }
-        private int Id { get; set; }
-        protected string Name { get; set; }
-        protected string CPF { get; set; }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
+        public string CPF { get; private set; }
 
-        public abstract void CloseAccount();
+        public abstract string CloseAccount();
 
-        public abstract void CreateAccount();
+        public abstract string CreateAccount();
 
     }
 }

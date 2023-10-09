@@ -13,14 +13,14 @@ namespace App.Models
             Accounts = new List<PersonAccount>();
         }
         public List<PersonAccount> Accounts { get; private set; }
-        public override void CloseAccount()
+        public override string CloseAccount()
         {
-            throw new NotImplementedException();
+            return "Account close sucess!";
         }
 
-        public override void CreateAccount()
+        public override string CreateAccount()
         {
-            throw new NotImplementedException();
+            return "Account created sucess!";
         }
     }
 }

@@ -15,7 +15,7 @@ namespace App.Models
 
         public override void Deposit(double balance)
         {
-           Balance += balance;
+            Balance += balance;
             Console.WriteLine("Deposit Congratulations!");
             Console.WriteLine($"Balance Actually: {Balance:C2}");
         }
