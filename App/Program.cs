@@ -22,7 +22,6 @@ obj.Accounts.Add(account1);
 
 string personSerialize = JsonConvert.SerializeObject(obj, Formatting.Indented);
 
-System.Console.WriteLine(personSerialize);
 File.WriteAllText("Persistence/accounts.json", personSerialize);
 
 
