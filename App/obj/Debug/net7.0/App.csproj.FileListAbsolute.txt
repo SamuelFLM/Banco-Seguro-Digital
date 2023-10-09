@@ -1,0 +1,15 @@
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\bin\Debug\net7.0\App.exe
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\bin\Debug\net7.0\App.deps.json
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\bin\Debug\net7.0\App.runtimeconfig.json
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\bin\Debug\net7.0\App.dll
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\bin\Debug\net7.0\App.pdb
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.csproj.AssemblyReference.cache
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.AssemblyInfoInputs.cache
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.AssemblyInfo.cs
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.csproj.CoreCompileInputs.cache
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.dll
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\refint\App.dll
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.pdb
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\App.genruntimeconfig.cache
+c:\Users\Lazer\OneDrive\Área de Trabalho\Banco Seguro Digital\App\obj\Debug\net7.0\ref\App.dll
