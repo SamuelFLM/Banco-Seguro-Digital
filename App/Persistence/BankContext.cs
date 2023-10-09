@@ -20,7 +20,12 @@ namespace App.Persistence
             {
                 e.HasKey(c => c.Id);
 
-                
+                e.HasMany(c => c.Accounts).WithOne().HasForeignKey(a => a.IdClient);
+            });
+
+            builder.Entity<Account>(e =>
+            {
+                e.HasKey(a => a.Id);
             });
         }
 
