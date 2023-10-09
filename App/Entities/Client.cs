@@ -9,21 +9,19 @@ namespace App.Entities
 {
     public abstract class Client : IClient
     {
-        public Client(string name, string cpf)
+        public Client(int id, string name, string cpf)
         {
+            Id = id;
             Name = name;
             CPF = cpf;
-            Accounts = new List<Account>();
         }
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string CPF { get; private set; }
-
-        public List<Account> Accounts { get; private set; }
+        private int Id { get; set; }
+        protected string Name { get; set; }
+        protected string CPF { get; set; }
 
         public abstract void CloseAccount();
 
         public abstract void CreateAccount();
-        
+
     }
 }

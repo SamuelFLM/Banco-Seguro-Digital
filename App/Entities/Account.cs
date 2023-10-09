@@ -8,19 +8,20 @@ namespace App.Entities
 {
     public abstract class Account : IAccount
     {
-        public Account(double balance, int number, int idCliente)
+        public Account(int id, double balance, int number, int idClient)
         {
+            Id = id;
             Balance = balance;
             Number = number;
-            IdClient = idCliente;
+            IdClient = idClient;
         }
-        public int Id { get; private set; }
-        public double Balance { get; private set; }
-        public int Number { get; private set; }
-        public int IdClient { get; private set; }
+        private int Id { get;  set; }
+        protected double Balance { get;  set; }
+        private int Number { get;  set; }
+        private int IdClient { get;  set; }
 
         public abstract void Deposit(double balance);
         public abstract void WithDraw(double balance);
-        
+
     }
 }
